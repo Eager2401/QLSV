@@ -150,9 +150,9 @@ namespace DataAccss
             adapter.SelectCommand = command;
             command.CommandText = "SELECT StudentID, FirstName, LastName, DateOfBirth, Gender, Students.DepartmentID" +
                 " FROM Students WHERE " +
-                "LastName = @LastName";
+                "FirstName = @FirstName";
 
-            command.Parameters.AddWithValue("@LastName", name);
+            command.Parameters.AddWithValue("@FirstName", name);
             command.Connection = db.Connection;
 
             DataTable List_Students_By_N = new DataTable();

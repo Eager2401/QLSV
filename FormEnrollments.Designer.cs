@@ -1,6 +1,6 @@
 ﻿namespace QLSV
 {
-    partial class FormEnrollmetns
+    partial class FormEnrollments
     {
         /// <summary>
         /// Required designer variable.
@@ -140,9 +140,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(17, 151);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 13);
+            this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Sĩ số";
+            this.label6.Text = "Điểm số";
             // 
             // txtStudentID
             // 

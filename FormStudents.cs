@@ -249,7 +249,7 @@ namespace QLSV
             if (cbSearchStudents.Checked)
             {
                 cbSearchID.Visible = true;
-                txtSearchID.Visible = false;
+                txtSearchName.Visible = false;
                 cbSearchDepartment.Visible = true;
                 cbxSearchDepartment.Visible = false;
                 btOK.Visible = false;
@@ -257,7 +257,7 @@ namespace QLSV
             else
             {
                 cbSearchID.Visible = false;
-                txtSearchID.Visible = false;
+                txtSearchName.Visible = false;
                 cbSearchDepartment.Visible = false;
                 cbxSearchDepartment.Visible = false;
                 btOK.Visible = false;
@@ -269,14 +269,14 @@ namespace QLSV
         {
             if(cbSearchID.Checked)
             {
-                txtSearchID.Visible = true;
+                txtSearchName.Visible = true;
                 btOK.Visible = true;
                 cbSearchDepartment.Visible = false;
                 cbxSearchDepartment.Visible = false ;
             }
             else
             {
-                txtSearchID.Visible = true;
+                txtSearchName.Visible = true;
                 btOK.Visible = true;
                 cbxSearchDepartment.Visible = true;
                 cbSearchDepartment.Visible = true;
@@ -287,7 +287,7 @@ namespace QLSV
         {
             if (cbSearchDepartment.Checked == true)
             {
-                txtSearchID.Visible = false;
+                txtSearchName.Visible = false;
                 cbSearchID.Visible = false;
                 btOK.Visible = false;
                 LoadDepartments(cbxSearchDepartment);
@@ -295,7 +295,7 @@ namespace QLSV
             }
             else
             {
-                txtSearchID.Visible = true;
+                txtSearchName.Visible = true;
                 cbSearchID.Visible = true;
                 btOK.Visible = true;
                 cbxSearchDepartment.Visible = true;
@@ -321,7 +321,7 @@ namespace QLSV
             else if(cbSearchID.Checked == true)
             {
                 cbSearchID.Checked = false;
-                txtSearchID.Clear();
+                txtSearchName.Clear();
             }
             else
             {
@@ -334,7 +334,7 @@ namespace QLSV
         private void btOK_Click(object sender, EventArgs e)
         {
 
-            string lastname = txtSearchID.Text;
+            string lastname = txtSearchName.Text;
 
             // Kiểm tra nếu textbox rỗng
             if (string.IsNullOrWhiteSpace(lastname))

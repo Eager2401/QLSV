@@ -112,7 +112,7 @@ namespace QLSV
                                     MessageBoxButtons.YesNo, MessageBoxIcon.Question))
                                     == DialogResult.Yes)
                                 {
-                                    string ID = dataGridViewCourses.Rows[e.RowIndex].Cells["StudentID"].Value.ToString();
+                                    string ID = dataGridViewCourses.Rows[e.RowIndex].Cells["CourseID"].Value.ToString();
                                     bLL_Courses.DeleteCourses(ID);
                                     MessageBox.Show("Xóa khóa học thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     LoadCourses();

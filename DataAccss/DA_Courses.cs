@@ -46,9 +46,9 @@ namespace DataAccss
         public int DeleteCourses(int ID)
         {
             SqlCommand command = new SqlCommand();
-            command.CommandText = "DELETE Courses WHERE CoursesID=@CoursesID";
+            command.CommandText = "DELETE Courses WHERE CourseID=@CourseID";
             command.Connection = db.Connection;
-            command.Parameters.AddWithValue("@CoursesID", ID);
+            command.Parameters.AddWithValue("@CourseID", ID);
 
             db.Connection.Open();
 

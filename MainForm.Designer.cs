@@ -37,11 +37,11 @@
             // 
             // btQLDS
             // 
-            this.btQLDS.Location = new System.Drawing.Point(38, 201);
+            this.btQLDS.Location = new System.Drawing.Point(38, 207);
             this.btQLDS.Name = "btQLDS";
             this.btQLDS.Size = new System.Drawing.Size(254, 23);
             this.btQLDS.TabIndex = 16;
-            this.btQLDS.Text = "Quản lý điểm số";
+            this.btQLDS.Text = "Quản lý danh sách đăng ký học";
             this.btQLDS.UseVisualStyleBackColor = true;
             this.btQLDS.Click += new System.EventHandler(this.btQLDS_Click);
             // 
@@ -90,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 244);
+            this.ClientSize = new System.Drawing.Size(333, 256);
             this.Controls.Add(this.btQLDS);
             this.Controls.Add(this.btQLKH);
             this.Controls.Add(this.btQLK);

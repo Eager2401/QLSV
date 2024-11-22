@@ -12,14 +12,14 @@ using System.Windows.Forms;
 
 namespace QLSV
 {
-    public partial class FormEnrollmetns : Form
+    public partial class FormEnrollments : Form
     {
         BLL_Enrollments bLL_Enrollments = new BLL_Enrollments();
         DataTable table_enrollments = new DataTable();
         BLL_Courses bll_courses = new BLL_Courses();
         DataTable table_courses = new DataTable();
 
-        public FormEnrollmetns()
+        public FormEnrollments()
         {
             InitializeComponent();
         }
@@ -331,7 +331,7 @@ namespace QLSV
             // Kiểm tra kết quả tìm kiếm
             if (table_Students.Rows.Count == 0)
             {
-                MessageBox.Show("Không tìm thấy sinh viên với họ tên này.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Không tìm thấy sinh viên với tên này.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

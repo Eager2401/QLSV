@@ -41,8 +41,9 @@ namespace QLSV
         private void btQLDS_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormEnrollmetns formEnrollmetns = new FormEnrollmetns();
-            formEnrollmetns.ShowDialog();
+            FormEnrollments formEnrollments = new FormEnrollments();
+            formEnrollments.ShowDialog();
         }
+
     }
 }

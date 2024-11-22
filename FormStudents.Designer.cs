@@ -55,7 +55,7 @@
             this.cbxSearchDepartment = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btOK = new System.Windows.Forms.Button();
-            this.txtSearchID = new System.Windows.Forms.TextBox();
+            this.txtSearchName = new System.Windows.Forms.TextBox();
             this.btShowList = new System.Windows.Forms.Button();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.btReportStudentByD = new System.Windows.Forms.Button();
@@ -300,7 +300,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btOK);
-            this.groupBox1.Controls.Add(this.txtSearchID);
+            this.groupBox1.Controls.Add(this.txtSearchName);
             this.groupBox1.Controls.Add(this.cbSearchID);
             this.groupBox1.Location = new System.Drawing.Point(0, 33);
             this.groupBox1.Name = "groupBox1";
@@ -318,12 +318,12 @@
             this.btOK.UseVisualStyleBackColor = true;
             this.btOK.Click += new System.EventHandler(this.btOK_Click);
             // 
-            // txtSearchID
+            // txtSearchName
             // 
-            this.txtSearchID.Location = new System.Drawing.Point(107, 9);
-            this.txtSearchID.Name = "txtSearchID";
-            this.txtSearchID.Size = new System.Drawing.Size(121, 20);
-            this.txtSearchID.TabIndex = 45;
+            this.txtSearchName.Location = new System.Drawing.Point(107, 9);
+            this.txtSearchName.Name = "txtSearchName";
+            this.txtSearchName.Size = new System.Drawing.Size(121, 20);
+            this.txtSearchName.TabIndex = 45;
             // 
             // btShowList
             // 
@@ -420,7 +420,7 @@
         private System.Windows.Forms.CheckBox cbSearchID;
         private System.Windows.Forms.CheckBox cbSearchDepartment;
         private System.Windows.Forms.GroupBox grbSearch;
-        private System.Windows.Forms.TextBox txtSearchID;
+        private System.Windows.Forms.TextBox txtSearchName;
         private System.Windows.Forms.ComboBox cbxSearchDepartment;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
